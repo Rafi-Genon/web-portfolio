@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
 h1{
     font-size: 50px;
@@ -16,4 +17,20 @@ h1{
 }
 .upper img{
     width: 100%;
+}
+.upbackground{
+    background-image: url(images/top-banner.png);
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.link-button{
+    padding: 10px 30px;
+    background-image: linear-gradient(45deg,#ff0037, #ff009d);
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.lower{
+    width: 40%;
 }

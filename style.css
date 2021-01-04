@@ -5,8 +5,12 @@ body{
 h1{
     font-size: 50px;
 }
+
+p{
+    color: dimgray;
+}
 .highlight{
-    color: yellow;
+    color: orange;
 }
 .part{
     width: 40%;
@@ -22,6 +26,7 @@ h1{
     background-image: url(images/top-banner.png);
     height: 500px;
     background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
 .link-button{
     padding: 10px 30px;
@@ -35,23 +40,15 @@ h1{
 .part2{
     width: 40%;
     float: left;
+    margin-right: 10%;
 }
 .part2 img{
     width: 100%;
 }
-.part2-all{
-    margin-left: 50%;
-}
-.part2-link-button{
-    padding: 10px 50px;
-    background-image: linear-gradient(45deg,#ff0037, #ff009d);
-    border-radius: 5px;
-    color: white;
-    text-decoration: none;
-    font-weight: 700;
-}
+
 .part2-background{
     background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    border:1px solid black;
+    background-repeat: no-repeat;   
+    height: 500px;
+    background-position: right;
 }

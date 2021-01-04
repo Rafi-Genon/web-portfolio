@@ -8,14 +8,14 @@ h1{
 .highlight{
     color: yellow;
 }
-.upper{
+.part{
     width: 40%;
     padding-left: 5%;
     margin-left: 5%;
     float: left;
     
 }
-.upper img{
+.part img{
     width: 100%;
 }
 .upbackground{
@@ -31,6 +31,27 @@ h1{
     text-decoration: none;
     font-weight: 700;
 }
-.lower{
+
+.part2{
     width: 40%;
+    float: left;
+}
+.part2 img{
+    width: 100%;
+}
+.part2-all{
+    margin-left: 50%;
+}
+.part2-link-button{
+    padding: 10px 50px;
+    background-image: linear-gradient(45deg,#ff0037, #ff009d);
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.part2-background{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    border:1px solid black;
 }
